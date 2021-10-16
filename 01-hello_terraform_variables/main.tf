@@ -3,6 +3,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-    name     = "rg-${var.prefix}"
-    location = var.location
+    name     = "rg-demo-eastus2"
+    location = "eastus2"
 }
