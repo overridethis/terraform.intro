@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # load environment variables.
-sh .env.sh
+source .env.sh
 
 # terraform work -out run.plan
 terraform destroy -auto-approve

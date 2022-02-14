@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # load environment variables.
-sh .env.sh
+source .env.sh
 
-# terraform work -out run.plan
+# dsterraform work -out run.plan
 terraform init
 terraform plan -out run.plan
 terraform apply run.plan
